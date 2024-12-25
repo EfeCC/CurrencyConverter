@@ -4,9 +4,9 @@ import time
 
 print("""
 -----------------------------------
-BORSA TAKIP UYGULAMASINA HOSGELDINIZ
+WELCOME TO THE MARKET TRACKING APPLICATION
 -----------------------------------
-CIKMAK ICIN 'q' YA BASINIZ.
+PRESS 'q' TO QUIT
 
 
 """)
@@ -57,9 +57,9 @@ while True:
         if sonuc:
             print(f"{miktar} {birim},{sonuc:.2f}TL'ye eşittir\n")
         else:
-            print("Geçersiz birim, lütfen geçerli bir birim seçin(EUR/USD).\n")
+            print("Invalid unit, please select a valid unit (EUR/USD).\n")
     else:
-        print("Geçersiz işlem lütfen geçerli bir işlem seçiniz(q/c)")
+        print("Invalid unit,please select a valid unit (q/c)")
         continue
 
 
